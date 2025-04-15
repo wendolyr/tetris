@@ -22,6 +22,7 @@ A classic Tetris implementation in C using ASCII graphics in the terminal.
 3. Start the game using `make play`  
 
 ## 🕹️ Controls
+| Key |    Description    |
 | --- | ----------------- |  
 | ← → | Move horizontally |  
 |  ↓  | Hard drop         |  
