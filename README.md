@@ -1,8 +1,8 @@
-# Tetris in C (console version)
+# 🎮 Tetris in C (console version)
 
 A classic Tetris implementation in C using ASCII graphics in the terminal.
 
-## Features
+## 🌟 Features
 - Classic tetris rules  
 - Keyboard controls  
 - Score system  
@@ -11,17 +11,17 @@ A classic Tetris implementation in C using ASCII graphics in the terminal.
 - Display where the current piece will drop
 - ASCII interface  
 
-## Requirements
+## 📋 Requirements
 - C compiler (GCC)  
 - Linux/macOS Terminal  
 - Installed `ncurses` library  
 
-## Installation & Running
+## 📥 Installation & Running
 1. Clone the repository  
 2. Compile the program using `make install`  
 3. Start the game using `make play`  
 
-## Controls
+## 🕹️ Controls
 Left Arrow - Move piece left  
 Right Arrow - Move piece right  
 Down Arrow - Soft drop (accelerate fall)  
@@ -29,7 +29,7 @@ Space - Rotate piece
 P - Pause game  
 ESC - Quit game  
 
-## Technical features
+## 🛠️ Technical features
 - Game realized using FSM (finite state machine)  
 ![img](./images/fsm_scheme.png)  
 - 7 types of tetromino:  
@@ -39,7 +39,7 @@ ESC - Quit game
 To run tests and coverage report use `make test` and `make gcov_report`.  
 - Documentation done using Doxyfile. For creation use `make dvi`.  
 
-## Screenshots
+## 📷 Screenshots
 ![img](./images/main_menu.png)  
 ![img](./images/playing.png)  
 ![img](./images/pause_menu.png)  
