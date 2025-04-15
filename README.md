@@ -26,9 +26,9 @@ A classic Tetris implementation in C using ASCII graphics in the terminal.
 | --- | ----------------- |  
 | ← → | Move horizontally |  
 |  ↓  | Hard drop         |  
-|Space| Rotate piece      |  
-|  P  | Pause             |  
-| ESC | Quit              |  
+|**Space**| Rotate piece      |  
+|  **P**  | Pause             |  
+| **ESC** | Quit              |  
 
 ## 🛠️ Technical features
 - Game realized using FSM (finite state machine)  
