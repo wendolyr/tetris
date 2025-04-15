@@ -22,12 +22,11 @@ A classic Tetris implementation in C using ASCII graphics in the terminal.
 3. Start the game using `make play`  
 
 ## 🕹️ Controls
-Left Arrow - Move piece left  
-Right Arrow - Move piece right  
-Down Arrow - Soft drop (accelerate fall)  
-Space - Rotate piece  
-P - Pause game  
-ESC - Quit game  
+| ← → | Move horizontally |  
+| -↓- | Hard drop         |  
+|Space| Rotate piece      |
+| -P- | Pause             |
+| ESC | Quit              |
 
 ## 🛠️ Technical features
 - Game realized using FSM (finite state machine)  
